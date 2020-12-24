@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/matchResultTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="MATCH RESULT"
+        android:textStyle="bold|italic"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/matchScoreTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="MATCH SCORE"
+        android:gravity="center"
+        android:textStyle="bold|italic"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/logRcView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        style="@style/CardView.Light"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/restartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Match"/>
+</LinearLayout>

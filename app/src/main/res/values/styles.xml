@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Dialog.Alert">
+
+    </style>
+    <style name="PopupMenu" parent="Widget.AppCompat.PopupMenu">
+
+    </style>
+</resources>
